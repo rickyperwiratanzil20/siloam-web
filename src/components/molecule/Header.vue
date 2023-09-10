@@ -50,5 +50,82 @@ export default {
   name: "Header",
 };
 </script>
-h1 { margin: 10px; }
-<style></style>
+
+<style>
+/* Nav */
+nav {
+  position: fixed;
+  top: 0;
+  width: 1300px;
+  border-bottom: 0.1px solid grey;
+}
+.nav-top {
+  padding: 7px;
+  background-color: #1e266d;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-top-left {
+  display: flex;
+}
+.nav-top-left p {
+  margin-right: 30px;
+  margin-left: 5px;
+}
+.nav-top-center {
+  background: #ff5c5d;
+  border: 1px solid #ff5c5d;
+  color: #fff !important;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+.nav-top-center p {
+  margin-left: 10px;
+}
+.nav-top-right {
+  display: flex;
+  align-items: center;
+}
+.nav-top-right p {
+  margin-left: 10px;
+}
+.nav-bottom {
+  padding: 5px;
+  background-color: white;
+  color: #2f495e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bottom-left {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-bottom-left img {
+  width: 150px;
+}
+.nav-bottom-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+}
+.login-button {
+  background-color: #1e266d;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.login-button p {
+  color: white;
+}
+</style>

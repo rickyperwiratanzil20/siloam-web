@@ -4,8 +4,16 @@
 
 <script>
 export default {
-  name: "Footer-good",
+  name: "Footer",
 };
 </script>
-h1 { margin: 10px; }
-<style></style>
+
+<style>
+/* footer */
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #848485;
+}
+</style>
